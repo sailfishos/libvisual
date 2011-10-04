@@ -1,0 +1,21 @@
+Name: libvisual
+Summary: Abstraction library for audio visualisation plugins
+Version: 0.4.0
+Release: 1
+Group: Applications/Multimedia
+License: LGPLv2+
+URL: http://libvisual.sf.net
+Sources:
+    - http://dl.sf.net/libvisual/libvisual-0.4.0.tar.gz
+Patches:
+    - libvisual-0.4.0-fixes.patch
+    - libvisual-0.4.0-compiler_warnings.patch
+    - libvisual-0.4.0-unref-static.patch 
+PkgConfigBR:
+    - xproto
+LocaleName: libvisual-0.4
+SubPackages:
+    - Name: devel
+      Summary: Development components for the libvisual library
+      Group: Development/Libraries
+
