@@ -1,3 +1,6 @@
+* Fri Aug 17 2012 Tero Siironen <tero.siironen@gmail.com> - 0.4.0
+- Fixes MER#260 : libvisual yaml file has obsolete URL entry
+
 * Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 0.4.0
 - Updated with latest spectacle
 - Include YAML file in source rpm
